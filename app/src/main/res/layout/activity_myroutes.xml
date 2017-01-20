@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="routebuddy.administrator.example.com.minor_project.myroutes">
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="1250dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:alpha="0.6"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAILY ROUTE"
+        android:id="@+id/textView19"
+        android:textColor="#0d0d0d"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:alpha="1.0"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignRight="@+id/textView25"
+        android:layout_alignEnd="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOURCE:"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:textColor="#050505"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView25"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESTINATION:"
+        android:id="@+id/textView26"
+        android:layout_marginTop="35dp"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView27"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH for Friends with SAME ROUTE"
+        android:id="@+id/button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="113dp"
+        android:background="#e9f4f9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE YOUR ROUTE"
+        android:id="@+id/button2"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#e9f4f9"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+

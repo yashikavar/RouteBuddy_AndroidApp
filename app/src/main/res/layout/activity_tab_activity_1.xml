@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#fff"
+        android:focusable="true"
+        android:backgroundTint="#fff">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/logo"
+            android:id="@+id/imageView6"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/editname"
+            android:layout_alignEnd="@+id/editname" />
+
+        <Button android:id="@+id/btLOGOUT"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="LOGOUT"
+            android:background="#e9f4f9"
+            android:clickable="true"
+            android:textSize="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button android:id="@+id/btchangePASS"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="CHANGE PASSWORD"
+            android:background="#e9f4f9"
+            android:clickable="true"
+            android:layout_above="@+id/btLOGOUT"
+            android:layout_alignLeft="@+id/btLOGOUT"
+            android:layout_alignStart="@+id/btLOGOUT" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="NAME: "
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:textSize="25dp"
+            android:layout_above="@+id/textView7"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="EMAIL: "
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="PHONE:"
+            android:textStyle="bold"
+            android:id="@+id/textView9"
+            android:textSize="25dp"
+            android:layout_below="@+id/textView17"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8" />
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/header"
+            android:id="@+id/linearLayout"
+            android:weightSum="1">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#263ed7"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/wlcmheader"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="New Text"
+            android:id="@+id/textView8"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/editphone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edit"
+            android:id="@+id/editemail"
+            android:textIsSelectable="false"
+            android:textColor="#0f22ef"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignLeft="@+id/editphone"
+            android:layout_alignStart="@+id/editphone"
+            android:layout_alignBottom="@+id/textView17"
+            android:layout_below="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edit"
+            android:id="@+id/editphone"
+            android:textIsSelectable="true"
+            android:textColor="#0f22ef"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView9"
+            android:layout_alignLeft="@+id/editname"
+            android:layout_alignStart="@+id/editname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edit"
+            android:id="@+id/editname"
+            android:textColor="#0f22ef"
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_above="@+id/editemail"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView7" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="New Text"
+            android:id="@+id/textView7"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="New Text"
+            android:id="@+id/textView17"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

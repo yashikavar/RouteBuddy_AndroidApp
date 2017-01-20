@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#fff"
+        android:focusable="true"
+        android:backgroundTint="#fff">
+
+        <Button android:id="@+id/btnchat"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="CHAT"
+            android:background="@color/green1"
+            android:clickable="true"
+            android:layout_marginBottom="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="NAME: "
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_toLeftOf="@+id/btnchat"
+            android:layout_toStartOf="@+id/btnchat" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="EMAIL: "
+            android:textStyle="bold"
+            android:layout_below="@+id/textView"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView2"
+            android:textSize="20dp" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="PROFESSION: "
+            android:textStyle="bold"
+            android:layout_marginTop="36dp"
+            android:id="@+id/profe"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="QUALIFICATION: "
+            android:textStyle="bold"
+            android:layout_marginTop="34dp"
+            android:id="@+id/qual"
+            android:textSize="18dp"
+            android:layout_below="@+id/profe"
+            android:layout_alignLeft="@+id/profe"
+            android:layout_alignStart="@+id/profe" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text= "HOMETOWN: "
+            android:textStyle="bold"
+            android:layout_marginTop="34dp"
+            android:id="@+id/home"
+            android:textSize="18dp"
+            android:layout_below="@+id/qual"
+            android:layout_alignLeft="@+id/qual"
+            android:layout_alignStart="@+id/qual" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/header"
+            android:id="@+id/linearLayout"
+            android:weightSum="1">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#263ed7"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/rec_wlcmheader"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff4069"
+                android:text=" PROFILE"
+                android:layout_marginTop="37dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_weight="0.48"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView6"
+            android:layout_below="@+id/linearLayout"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/rec_name"
+            android:textSize="15dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_toRightOf="@+id/profe"
+            android:layout_toEndOf="@+id/profe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/rec_prof"
+            android:layout_above="@+id/qual"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/rec_qual"
+            android:layout_alignTop="@+id/qual"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/rec_home"
+            android:layout_alignBottom="@+id/home"
+            android:layout_toRightOf="@+id/qual"
+            android:layout_toEndOf="@+id/qual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/rec_email"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/rec_name"
+            android:layout_alignStart="@+id/rec_name" />
+
+    </RelativeLayout>
+
+</ScrollView>

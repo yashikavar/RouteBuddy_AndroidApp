@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1074482921246",
+    "firebase_url": "https://app2-10ed1.firebaseio.com",
+    "project_id": "app2-10ed1",
+    "storage_bucket": "app2-10ed1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074482921246:android:671f64d0fcedcf26",
+        "android_client_info": {
+          "package_name": "routebuddy.administrator.example.com.minor_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074482921246-t7i6e7ic6s8bs7196ca74b0715966gr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO1wkE_k8b1H9QffK9y7P3zXtSJJR5Y6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fillViewport="true"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/logo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/textView20"
+            android:text="source addresss *"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/source_add1"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView20"
+            android:layout_alignRight="@+id/textView16"
+            android:layout_alignEnd="@+id/textView16" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/textView21"
+            android:text="destination addresss *"
+            android:layout_marginTop="61dp"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_below="@+id/source_add1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/dest_add1"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/textView22"
+            android:text="Pincode*"
+            android:textColor="#000"
+            android:layout_marginTop="64dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/dest_add1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/pin_code1"
+            android:inputType="number"
+            android:ems="10"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:id="@+id/time_g11"
+            android:inputType="number"
+            android:hint="hour"
+            android:ems="10"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:id="@+id/time_g21"
+            android:inputType="number"
+            android:hint="min"
+            android:ems="10"
+            android:textSize="30dp"
+            android:layout_alignTop="@+id/time_g11"
+            android:layout_alignEnd="@+id/pin_code1" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView23"
+            android:text="Time *"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="59dp" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:background="#e9f4f9"
+            android:id="@+id/btnadd2"
+            android:text="Add Your Instant Route"
+            android:textSize="40dp"
+            android:layout_below="@+id/time_g11"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="114dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIME SHOULD BE IN FORMAT hh:mm"
+            android:id="@+id/textView16"
+            android:textSize="20dp"
+            android:focusable="true"
+            android:textColor="#f00c0c"
+            android:textStyle="bold"
+            android:layout_below="@+id/pin_code1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="102dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
